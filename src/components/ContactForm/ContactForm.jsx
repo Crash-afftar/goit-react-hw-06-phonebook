@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Form, Label, Input, Button } from './ContactForm.styled';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { useDispatch, useSelector } from 'react-redux';
 import { addContact } from 'redux/contactsSlice';
 import { nanoid } from '@reduxjs/toolkit';

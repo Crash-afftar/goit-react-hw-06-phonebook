@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+
 import ContactItem from '../ContactItem/ContactItem';
 import { List } from './ContactList.styled';
 import { useSelector } from 'react-redux';
